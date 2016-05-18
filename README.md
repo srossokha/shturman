@@ -1,6 +1,6 @@
 # shturman-electron
 
-This is a Time Table Application Electron application based on the [Electron](http://electron.atom.io/).
+This is a Time Table application based on the [Electron](http://electron.atom.io/).
 
 A basic Electron application needs just these files:
 
