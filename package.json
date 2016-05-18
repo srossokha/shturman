@@ -1,14 +1,15 @@
 {
-  "name": "electron-quick-start",
+  "name": "shturman-electron",
   "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "description": "The application to create timetables",
   "main": "main.js",
   "scripts": {
-    "start": "electron main.js"
+    "start": "webpack --debug && electron main.js",
+    "build": "webpack --debug"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/electron/electron-quick-start.git"
+    "url": "git+https://github.com/srossokha/shturman"
   },
   "keywords": [
     "Electron",
@@ -19,11 +20,15 @@
   "author": "GitHub",
   "license": "CC0-1.0",
   "bugs": {
-    "url": "https://github.com/electron/electron-quick-start/issues"
+    "url": "https://github.com/srossokha/shturman/issues"
   },
-  "homepage": "https://github.com/electron/electron-quick-start#readme",
+  "homepage": "https://github.com/srossokha/shturman#readme",
   "devDependencies": {
-    "electron-prebuilt": "^1.0.1"
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.5.0",
+    "electron-prebuilt": "^1.0.1",
+    "webpack": "^1.13.0"
   },
   "dependencies": {
     "immutable": "^3.8.1",
